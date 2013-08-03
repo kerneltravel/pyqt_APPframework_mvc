@@ -15,7 +15,7 @@ from PyQt4.QtCore import pyqtSlot, Qt, QPoint, QTime, QTimer, QTextCodec
 from PyQt4.QtCore import QTextDecoder, QByteArray, QString
 from PyQt4.QtGui import QApplication, QMainWindow, QTableWidgetItem, QKeyEvent, QTextCursor
 
-from settings_controller import Settings
+from c.settings_controller import Settings
 
 if __name__ == '__main__': 
     reload(sys)
