@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project pyqt_APPframework -->
-<!-- Saved: 2013-08-03, 09:14:17 -->
+<!-- Saved: 2013-08-03, 10:39:02 -->
 <!-- Copyright (C) 2013 demo, demo@mail.com -->
 <Project version="4.6">
   <Language></Language>
@@ -14,8 +14,11 @@
   <Sources>
     <Source>src/main.py</Source>
     <Source>src/ui/Ui_designer_generated.py</Source>
-    <Source>src/ui_controller.py</Source>
     <Source>__init__.py</Source>
+    <Source>src/c/settings_controller.py</Source>
+    <Source>src/c/__init__.py</Source>
+    <Source>src/m/mydatawrapper.py</Source>
+    <Source>src/m/__init__.py</Source>
   </Sources>
   <Forms>
     <Form>src/ui/designer_generated.ui</Form>
