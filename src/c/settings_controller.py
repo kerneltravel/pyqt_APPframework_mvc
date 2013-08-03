@@ -24,8 +24,8 @@ class Settings(QDialog, Ui_Settings):
     def __init__(self, parent=None):
         super(Settings,self).__init__(parent)
         self.setupUi(self)      
-        self.initData()
         self.initUi()
+        self.initData()
         
     def initUi(self):
         #QTimer.singleShot(0,self.searchWords,QtCore.SLOT(self.searchWords.setFocus()))
